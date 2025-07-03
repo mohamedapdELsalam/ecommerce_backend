@@ -6,7 +6,7 @@ include "../../connect.php";
 // $categoryId = filterRequest("categoryId");
 
 
- getAllData("itemsview");
+ getAllData("itemsview" , "items_id != 0" );
 
 
 

@@ -3,6 +3,6 @@
 include "../../connect.php";
 
 
-getAllData("categories" );
+getAllData("categories" ,"categories_id != 0");
 
 ?>
